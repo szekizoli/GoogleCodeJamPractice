@@ -14,8 +14,8 @@ using namespace std;
 #define VV vector<V>
 
 void print(VV& t) {
-	f(i, t.size()) {
-		copy(begin(t[i]), end(t[i]), ostream_iterator<TYPE>(std::cout, ""));
+	for(const auto& v : t) {
+		copy(begin(v), end(v), ostream_iterator<TYPE>(std::cout, ""));
 		std::cout << std::endl;
 	}
 	std::cout << std::endl;
@@ -54,18 +54,13 @@ struct counter {
 
 int find(const VV& t, const TYPE elem, const int count) {
 	auto N = t.size();
-	// vertical
 	counter c(count, elem);
+
+	// vertical
 	f(j, t.size()) {
-		//int found = 0;
 		c.found = 0;
 		fr(i, t.size()) {
 			if (c.match(t[i][j])) return 1;
-			/*if (t[i][j] == elem) {
-				++found;
-				if (count == found) return 1;
-			}
-			else { found = 0; }*/
 		}
 	}
 	
@@ -95,7 +90,7 @@ int find(const VV& t, const TYPE elem, const int count) {
 	// this way -> '/'
 	fr(i, N) {
 		c.found = 0;
-		// testing lower half
+		// testing upper half
 		f(j, i+1) {
 			if (c.match(t[i - j][j])) return 1;
 		}
