@@ -1,0 +1,6 @@
+Important: C large only ran within 8 minutes if it was compiled to x64, not x86
+Solution for C:
+	Iterate over all trees in the forest. Draw a line to each other trees and test, whether which side of the line has less trees. If on one side
+	there is zero trees that means that the tree in question is on the edge. Otherwise the number tells how many trees need to be cut out, so the
+	tree in question is on the edge.
+	Complexity: O(n^3)
