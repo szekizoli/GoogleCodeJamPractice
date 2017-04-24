@@ -1,6 +1,7 @@
 #include<iostream>
 #include<limits>
 #include<vector>
+#include<bitset>
 
 using namespace std;
 
@@ -35,6 +36,12 @@ istream& operator>>(istream& is, input& in) {
   in.points.resize(in.Q);
   is >> in.horses >> in.distance >> in.points;
   return is;
+}
+
+template<typename T>
+ostream& operator<<(ostream& os, vector<T>  const& x) {
+  for(size_t i = 0; i < x.size(); ++i) os << x[i] << " ";
+  return os;
 }
 
 struct path_unit {
@@ -74,9 +81,63 @@ path to_path(input const& in) {
   return p;
 }
 
+path create_path(input const& in, vector<int> const& cp) {
+  path p;
+  for (size_t i = 0; i < cp.size()-1; ++i) {
+    p.push_back(path_unit(in.distance[cp[i]][cp[i+1]], in.horses[cp[i]]));
+  }
+  return p;
+}
+
+vector<path> get_all_path(input const& in, size_t point_index) {
+  int f = in.points[point_index].first - 1;
+  int l = in.points[point_index].second - 1;
+  vector<path> result;
+
+  vector<int> cp;
+  vector<int> visited(100, 0);
+  cp.reserve(in.N);
+  cp.push_back(f);
+  ++visited[f];
+  int fn = 0;
+  int tn = 0;
+
+  do {
+  next:
+    fn = cp.back();
+    for (; tn < in.N; ++tn) {
+      if(in.distance[fn][tn] != -1 && visited[tn] < 2) {
+	cp.push_back(tn);
+        if (tn == l) {
+	  result.push_back(create_path(in, cp));
+	  cp.pop_back();
+        } else {
+	  ++visited[tn];
+	  tn = 0;
+          goto next;
+        }
+      }
+    }
+    tn = cp.back() + 1;
+    cp.pop_back();
+    --visited[tn - 1];
+  } while (!cp.empty());
+
+  return result;
+}
+
 void solve(input const& in) {
-  cout.precision(6);
-  cout << fixed << get_travel_time(to_path(in));
+  for (int q = 0; q < in.Q; ++q) {
+    vector<path> paths = get_all_path(in, q);
+    double min = numeric_limits<double>::max();
+    for (path const& p : paths) {
+      double r = get_travel_time(p);
+      if (r < min) min = r;
+    }
+    cout.precision(6);
+    cout << fixed << min;
+    if (q < in.Q -1) cout << " ";
+  }
 }
 
 int main() {
