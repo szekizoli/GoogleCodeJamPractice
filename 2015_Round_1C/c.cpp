@@ -50,29 +50,6 @@ ostream& operator<<(ostream& os, vector<T> const& x) {
 
 typedef int N;
 
-struct coin_counter {
-  N value;
-  N coins;
-  coin_counter() : value(0), coins(0) {}
-  void add_new_coin(N coin, N times) {
-    ++coins;
-    add_coin(coin, times);
-  }
-  void add_coin(N coin, N times) {
-    value += coin * times;
-  }
-};
-
-typedef coin_counter counter_t;
-
-bool operator<(coin_counter const& x, N const& y) {
-  return x.value < y;
-}
-
-N operator+(coin_counter const& x, N const& y) {
-  return x.value + y;
-} 
-
 void solve(input const& p) {
   long N = 0;
   int add = 0;
@@ -82,15 +59,12 @@ void solve(input const& p) {
     long X = N + 1;
     if (p.D == coin_index || X < p.coins[coin_index]) {
       ++add;
-      //cout << " " << X;
     } else {
-      //cout << "add_coin " << p.coins[coin_index] << endl;
       X = p.coins[coin_index++];
     }
     N += X*p.C;
   }
 
-  //cout << endl;
   cout << add;
 }
 
