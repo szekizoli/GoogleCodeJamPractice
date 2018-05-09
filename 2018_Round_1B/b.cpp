@@ -68,7 +68,7 @@ ostream& operator<<(ostream& os, vector<T> const& x) {
 // Algorithm
 
 struct Dist {
-	Num val;
+	Num value;
 	bool isSet;
 };
 
@@ -78,73 +78,60 @@ struct Locations {
 };
 
 bool operator==(Dist const& a, Dist const& b) {
-	return a.isSet && b.isSet && a.val == b.val;
+	return a.isSet && b.isSet && a.value == b.value;
 }
 
 bool operator!=(Dist const& a, Dist const& b) {
 	return !(a == b);
 }
 
-Num longestSeqFromM(vector<Locations> const& D, size_t i) {
-	Num count = 1;
-	Dist M {D[i].m, true};
-	Dist N {0, false};
-	for (size_t j = i + 1; j < D.size(); ++j) {
-		if (M.val == D[j].m || (N.isSet && N.val == D[j].n)) {
-			++count;
-		} else if(!N.isSet) {
-			N = {D[j].n, true};
-			++count;
-		}	else {
-			break;
-		}
+struct Result {
+	Num value = 0;
+	Num count = 0;
+	void addResult(Num v) {
+		if (v < value) return;
+		if (value == v) { ++count; }
+		else            { count = 0; value = v; }
 	}
-	return count;
+};
+
+struct Sequence {
+	Dist M;
+	Dist N;
+	Num m_index;
+	Num n_index;
+	Num length;
 }
 
-Num longestSeqFromN(vector<Locations> const& D, size_t i) {
-	Num count = 1;
-	Dist M {0, false};
-	Dist N {D[i].n, true};
-	for (size_t j = i + 1; j < D.size(); ++j) {
-		if (N.val == D[j].n || (M.isSet && M.val == D[j].m)) {
-			++count;
-		} else if(!M.isSet) {
-			M = {D[j].m, true};
-			++count;
-		}	else {
-			break;
-		}
-	}
-	return count;
+bool equalOrNotSet(Sequence const& s, Num value) {
+	return !s.M.isSet || value == s.M.value;
 }
 
-pair<Num, Num> longestSeq(vector<Locations> const& D) {
-	vector<Num> result(D.size()+1, 0);
-	
-	for (size_t i = 0; i < D.size(); ++i) {
-		Num countM = longestSeqFromM(D, i);
-		Num countN = longestSeqFromN(D, i);
-		result[std::max(countM, countN)]++;
+void setIfNotSet(Sequence &s, Num value) {
+	if (!s.M.isSet) {
+		s.M.value = value;
+		s.M.isSet = true;
 	}
-	for (Num i = result.size()-1; i >= 0; --i) {
-		if (result[i] > 0) {
-			return make_pair(i, result[i]);
+}
+
+Result findLongest(vector<Locations> const& D) {
+	Result result;
+	Sequence s_m {Dist{D[0].m, true}, Dist{0, false}, 0, 0, 1};
+	Sequence s_n {Dist{0, false}, Dist{D[0].n, true}, 0, 0, 1};
+
+	for (size_t i = 1; i < D.size(); ++i) {
+		if (equalOrNotSet(s_m, D[i].m)) {
+			setIfNotSet(s_m, D[i].m);
+			++result.length;	
 		}
 	}
-	cerr << "ERROR" << endl;
-	return make_pair(0, 0);	
+
+	return result;	
 }
 
 void solve(input const& in) {
 	if (in.S < 3) { cout << in.S << " 1"; return; }
-	vector<Locations> D;
 
-	for (Sign s : in.signs) {
-		D.push_back(Locations{s.D+s.A, s.D-s.B});
-	}
-	auto r = longestSeq(D);
-	cout << r;
 }
 
 int main() {
