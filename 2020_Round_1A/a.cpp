@@ -64,7 +64,6 @@ bool suffix_matches(string const &a, string const& b) {
 }
 
 void solve(input const& in) {
-  string max_prefix = "";
   string max_suffix = ""; // reversed suffix
   // suffix
   for (auto const& s : in.P) {
@@ -80,22 +79,32 @@ void solve(input const& in) {
       max_suffix = string(rbegin(s), it);
     }
   }
-  // prefix
+  string max_prefix = "";
+  string middle = "";
   for (auto const& s : in.P) {
-    auto it = find(begin(s), end(s), '*');
-    if (it == end(s)) { cerr << "Invalid input: " << s << endl; return; }
-
-    auto it_p = mismatch(begin(s), it, begin(max_prefix), end(max_prefix));
-    if (it_p.first != it && it_p.second != end(max_prefix)) {
+    auto first = find(begin(s), end(s), '*');
+    auto prev = first;
+    auto last = find(next(prev), end(s), '*');
+    // prefix
+    auto it_p = mismatch(begin(s), first, begin(max_prefix), end(max_prefix));
+    if (it_p.first != first && it_p.second != end(max_prefix)) {
       cout << "*"; return;
     }
 
-    if (distance(begin(s), it) > max_prefix.size()) {
-      max_prefix = string(begin(s), it);
+    if (distance(begin(s), first) > max_prefix.size()) {
+      max_prefix = string(begin(s), first);
+    }
+    // middle
+    while (last != end(s)) {
+      prev = last;
+      last = find(next(prev), end(s), '*');
+    }
+    for (; first != prev; ++first) {
+      if (*first != '*') middle.push_back(*first);
     }
   }
 
-  cout << max_prefix << string(rbegin(max_suffix), rend(max_suffix));
+  cout << max_prefix << middle << string(rbegin(max_suffix), rend(max_suffix));
 }
 
 int main() {
