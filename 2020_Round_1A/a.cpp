@@ -1,4 +1,5 @@
 // 2020 Round 1A Problem A
+// Pattern Matching
 #include<algorithm>
 #include<cmath>
 #include<cstdint>
@@ -21,6 +22,8 @@ using namespace std;
 // I/O
 
 struct input {
+  int N;
+  vector<string> P;
 };
 
 template<typename T0, typename T1>
@@ -36,7 +39,9 @@ istream& operator>>(istream& is, vector<T>& x) {
 }
 
 istream& operator>>(istream& is, input& in) {
-  return is;
+  is >> in.N;
+  in.P.resize(in.N);
+  return is >> in.P;
 }
 
 template<typename T0, typename T1>
@@ -53,8 +58,44 @@ ostream& operator<<(ostream& os, vector<T> const& x) {
 
 // Algorithm
 
+bool suffix_matches(string const &a, string const& b) {
+  auto it_p = mismatch(rbegin(a), rend(a), rbegin(b), rend(b));
+  return it_p.first == rend(a) || it_p.second == rend(b);
+}
+
 void solve(input const& in) {
-  
+  string max_prefix = "";
+  string max_suffix = ""; // reversed suffix
+  // suffix
+  for (auto const& s : in.P) {
+    auto it = find(rbegin(s), rend(s), '*');
+    if (it == rend(s)) { cerr << "Invalid input: " << s << endl; return; }
+
+    auto it_p = mismatch(rbegin(s), it, begin(max_suffix), end(max_suffix));
+    if (it_p.first != it && it_p.second != end(max_suffix)) {
+      cout << "*"; return;
+    }
+
+    if (distance(rbegin(s), it) > max_suffix.size()) {
+      max_suffix = string(rbegin(s), it);
+    }
+  }
+  // prefix
+  for (auto const& s : in.P) {
+    auto it = find(begin(s), end(s), '*');
+    if (it == end(s)) { cerr << "Invalid input: " << s << endl; return; }
+
+    auto it_p = mismatch(begin(s), it, begin(max_prefix), end(max_prefix));
+    if (it_p.first != it && it_p.second != end(max_prefix)) {
+      cout << "*"; return;
+    }
+
+    if (distance(begin(s), it) > max_prefix.size()) {
+      max_prefix = string(begin(s), it);
+    }
+  }
+
+  cout << max_prefix << string(rbegin(max_suffix), rend(max_suffix));
 }
 
 int main() {

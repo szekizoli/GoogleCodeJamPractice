@@ -1,2 +1,2 @@
 #!/bin/sh
-clang++ -g --std=c++14 -o a.out a.cpp
+clang++ -g --std=c++17 -o a.out a.cpp
