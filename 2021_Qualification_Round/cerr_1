@@ -1,0 +1,900 @@
+  sol: 100 50 30000
+  sol: test case: 1
+  sol: ask (1, 1): 28 45 48
+  sol: answer: 28
+  sol: ask (1, 2): 28 45 34
+  sol: answer: 28
+  sol: ask (1, 3): 28 45 31
+  sol: answer: 28
+  sol: ask (1, 4): 28 45 33
+  sol: answer: 28
+  sol: ask (1, 5): 28 45 1
+  sol: answer: 28
+  sol: ask (1, 6): 28 45 3
+  sol: answer: 28
+  sol: ask (1, 7): 28 45 6
+  sol: answer: 28
+  sol: ask (1, 8): 28 45 8
+  sol: answer: 28
+  sol: ask (1, 9): 28 45 49
+  sol: answer: 28
+  sol: ask (1, 10): 28 45 37
+  sol: answer: 28
+  sol: ask (1, 11): 28 45 44
+  sol: answer: 28
+  sol: ask (1, 12): 28 45 42
+  sol: answer: 28
+  sol: ask (1, 13): 28 45 21
+  sol: answer: 28
+  sol: ask (1, 14): 28 45 19
+  sol: answer: 28
+  sol: ask (1, 15): 28 45 16
+  sol: answer: 28
+  sol: ask (1, 16): 28 45 47
+  sol: answer: 28
+  sol: ask (1, 17): 28 45 41
+  sol: answer: 28
+  sol: ask (1, 18): 28 45 23
+  sol: answer: 28
+  sol: ask (1, 19): 28 45 7
+  sol: answer: 28
+  sol: ask (1, 20): 28 45 26
+  sol: answer: 28
+  sol: ask (1, 21): 28 45 50
+  sol: answer: 28
+  sol: ask (1, 22): 28 45 46
+  sol: answer: 28
+  sol: ask (1, 23): 28 45 35
+  sol: answer: 28
+  sol: ask (1, 24): 28 45 13
+  sol: answer: 28
+  sol: ask (1, 25): 28 45 17
+  sol: answer: 28
+  sol: ask (1, 26): 28 45 2
+  sol: answer: 28
+  sol: ask (1, 27): 28 45 39
+  sol: answer: 28
+  sol: ask (1, 28): 28 45 22
+  sol: answer: 28
+  sol: ask (1, 29): 28 45 25
+  sol: answer: 28
+  sol: ask (1, 30): 28 45 30
+  sol: answer: 28
+  sol: ask (1, 31): 28 45 38
+  sol: answer: 28
+  sol: ask (1, 32): 28 45 12
+  sol: answer: 28
+  sol: ask (1, 33): 28 45 4
+  sol: answer: 28
+  sol: ask (1, 34): 28 45 14
+  sol: answer: 28
+  sol: ask (1, 35): 28 45 9
+  sol: answer: 28
+  sol: ask (1, 36): 28 45 18
+  sol: answer: 28
+  sol: ask (1, 37): 28 45 27
+  sol: answer: 28
+  sol: ask (1, 38): 28 45 24
+  sol: answer: 28
+  sol: ask (1, 39): 28 45 43
+  sol: answer: 28
+  sol: ask (1, 40): 28 45 20
+  sol: answer: 28
+  sol: ask (1, 41): 28 45 36
+  sol: answer: 28
+  sol: ask (1, 42): 28 45 32
+  sol: answer: 28
+  sol: ask (1, 43): 28 45 29
+  sol: answer: 28
+  sol: ask (1, 44): 28 45 15
+  sol: answer: 28
+  sol: ask (1, 45): 28 45 10
+  sol: answer: 28
+  sol: ask (1, 46): 28 45 11
+  sol: answer: 28
+  sol: ask (1, 47): 28 45 5
+  sol: answer: 28
+  sol: ask (1, 48): 28 45 40
+  sol: answer: 28
+  sol: ask (1, 49): 28 48 34
+  sol: answer: 34
+  sol: ask (1, 50): 48 34 31
+  sol: answer: 34
+  sol: ask (1, 51): 48 34 33
+  sol: answer: 34
+  sol: ask (1, 52): 48 34 1
+  sol: answer: 34
+  sol: ask (1, 53): 48 34 3
+  sol: answer: 34
+  sol: ask (1, 54): 48 34 6
+  sol: answer: 6
+  sol: ask (1, 55): 48 34 8
+  sol: answer: 34
+  sol: ask (1, 56): 48 34 49
+  sol: answer: 34
+  sol: ask (1, 57): 48 34 37
+  sol: answer: 34
+  sol: ask (1, 58): 48 34 44
+  sol: answer: 44
+  sol: ask (1, 59): 48 34 42
+  sol: answer: 34
+  sol: ask (1, 60): 48 34 21
+  sol: answer: 34
+  sol: ask (1, 61): 48 34 19
+  sol: answer: 34
+  sol: ask (1, 62): 48 34 16
+  sol: answer: 48
+  sol: ask (1, 63): 48 34 47
+  sol: answer: 34
+  sol: ask (1, 64): 48 34 41
+  sol: answer: 34
+  sol: ask (1, 65): 48 34 23
+  sol: answer: 34
+  sol: ask (1, 66): 48 34 7
+  sol: answer: 34
+  sol: ask (1, 67): 48 34 26
+  sol: answer: 34
+  sol: ask (1, 68): 48 34 50
+  sol: answer: 34
+  sol: ask (1, 69): 48 34 46
+  sol: answer: 34
+  sol: ask (1, 70): 48 34 35
+  sol: answer: 34
+  sol: ask (1, 71): 48 34 13
+  sol: answer: 34
+  sol: ask (1, 72): 48 34 17
+  sol: answer: 34
+  sol: ask (1, 73): 48 34 2
+  sol: answer: 34
+  sol: ask (1, 74): 48 34 39
+  sol: answer: 34
+  sol: ask (1, 75): 48 34 22
+  sol: answer: 22
+  sol: ask (1, 76): 48 34 25
+  sol: answer: 34
+  sol: ask (1, 77): 48 34 30
+  sol: answer: 34
+  sol: ask (1, 78): 48 34 38
+  sol: answer: 34
+  sol: ask (1, 79): 48 34 12
+  sol: answer: 12
+  sol: ask (1, 80): 48 34 4
+  sol: answer: 4
+  sol: ask (1, 81): 48 34 14
+  sol: answer: 34
+  sol: ask (1, 82): 48 34 9
+  sol: answer: 34
+  sol: ask (1, 83): 48 34 18
+  sol: answer: 34
+  sol: ask (1, 84): 48 34 27
+  sol: answer: 34
+  sol: ask (1, 85): 48 34 24
+  sol: answer: 34
+  sol: ask (1, 86): 48 34 43
+  sol: answer: 34
+  sol: ask (1, 87): 48 34 20
+  sol: answer: 34
+  sol: ask (1, 88): 48 34 36
+  sol: answer: 34
+  sol: ask (1, 89): 48 34 32
+  sol: answer: 34
+  sol: ask (1, 90): 48 34 29
+  sol: answer: 34
+  sol: ask (1, 91): 48 34 15
+  sol: answer: 15
+  sol: ask (1, 92): 48 34 10
+  sol: answer: 34
+  sol: ask (1, 93): 48 34 11
+  sol: answer: 34
+  sol: ask (1, 94): 48 34 5
+  sol: answer: 5
+  sol: ask (1, 95): 48 34 40
+  sol: answer: 34
+  sol: ask (1, 96): 48 6 44
+  sol: answer: 44
+  sol: ask (1, 97): 48 6 22
+  sol: answer: 22
+  sol: ask (1, 98): 48 6 12
+  sol: answer: 12
+  sol: ask (1, 99): 48 6 4
+  sol: answer: 4
+  sol: ask (1, 100): 48 6 15
+  sol: answer: 15
+  sol: ask (1, 101): 48 6 5
+  sol: answer: 5
+  sol: ask (1, 102): 48 44 22
+  sol: answer: 22
+  sol: ask (1, 103): 48 44 12
+  sol: answer: 12
+  sol: ask (1, 104): 48 44 4
+  sol: answer: 4
+  sol: ask (1, 105): 48 44 15
+  sol: answer: 44
+  sol: ask (1, 106): 48 44 5
+  sol: answer: 44
+  sol: ask (1, 107): 48 22 12
+  sol: answer: 22
+  sol: ask (1, 108): 48 12 4
+  sol: answer: 4
+  sol: ask (1, 109): 48 22 4
+  sol: answer: 22
+  sol: ask (1, 110): 44 15 5
+  sol: answer: 15
+  sol: ask (1, 111): 34 31 33
+  sol: answer: 33
+  sol: ask (1, 112): 34 31 1
+  sol: answer: 1
+  sol: ask (1, 113): 34 31 3
+  sol: answer: 3
+  sol: ask (1, 114): 34 31 8
+  sol: answer: 8
+  sol: ask (1, 115): 34 31 49
+  sol: answer: 49
+  sol: ask (1, 116): 34 31 37
+  sol: answer: 37
+  sol: ask (1, 117): 34 31 42
+  sol: answer: 42
+  sol: ask (1, 118): 34 31 21
+  sol: answer: 21
+  sol: ask (1, 119): 34 31 19
+  sol: answer: 19
+  sol: ask (1, 120): 34 31 47
+  sol: answer: 47
+  sol: ask (1, 121): 34 31 41
+  sol: answer: 41
+  sol: ask (1, 122): 34 31 23
+  sol: answer: 23
+  sol: ask (1, 123): 34 31 7
+  sol: answer: 7
+  sol: ask (1, 124): 34 31 26
+  sol: answer: 26
+  sol: ask (1, 125): 34 31 50
+  sol: answer: 50
+  sol: ask (1, 126): 34 31 46
+  sol: answer: 46
+  sol: ask (1, 127): 34 31 35
+  sol: answer: 31
+  sol: ask (1, 128): 34 31 13
+  sol: answer: 13
+  sol: ask (1, 129): 34 31 17
+  sol: answer: 17
+  sol: ask (1, 130): 34 31 2
+  sol: answer: 2
+  sol: ask (1, 131): 34 31 39
+  sol: answer: 39
+  sol: ask (1, 132): 34 31 25
+  sol: answer: 25
+  sol: ask (1, 133): 34 31 30
+  sol: answer: 30
+  sol: ask (1, 134): 34 31 38
+  sol: answer: 31
+  sol: ask (1, 135): 34 31 14
+  sol: answer: 14
+  sol: ask (1, 136): 34 31 9
+  sol: answer: 9
+  sol: ask (1, 137): 34 31 18
+  sol: answer: 18
+  sol: ask (1, 138): 34 31 27
+  sol: answer: 27
+  sol: ask (1, 139): 34 31 24
+  sol: answer: 24
+  sol: ask (1, 140): 34 31 43
+  sol: answer: 43
+  sol: ask (1, 141): 34 31 20
+  sol: answer: 20
+  sol: ask (1, 142): 34 31 36
+  sol: answer: 36
+  sol: ask (1, 143): 34 31 32
+  sol: answer: 32
+  sol: ask (1, 144): 34 31 29
+  sol: answer: 29
+  sol: ask (1, 145): 34 31 10
+  sol: answer: 10
+  sol: ask (1, 146): 34 31 11
+  sol: answer: 11
+  sol: ask (1, 147): 34 31 40
+  sol: answer: 40
+  sol: ask (1, 148): 34 33 1
+  sol: answer: 33
+  sol: ask (1, 149): 34 33 3
+  sol: answer: 3
+  sol: ask (1, 150): 34 33 8
+  sol: answer: 33
+  sol: ask (1, 151): 34 33 49
+  sol: answer: 33
+  sol: ask (1, 152): 34 33 37
+  sol: answer: 37
+  sol: ask (1, 153): 34 33 42
+  sol: answer: 33
+  sol: ask (1, 154): 34 33 21
+  sol: answer: 33
+  sol: ask (1, 155): 34 33 19
+  sol: answer: 33
+  sol: ask (1, 156): 34 33 47
+  sol: answer: 33
+  sol: ask (1, 157): 34 33 41
+  sol: answer: 33
+  sol: ask (1, 158): 34 33 23
+  sol: answer: 33
+  sol: ask (1, 159): 34 33 7
+  sol: answer: 33
+  sol: ask (1, 160): 34 33 26
+  sol: answer: 33
+  sol: ask (1, 161): 34 33 50
+  sol: answer: 33
+  sol: ask (1, 162): 34 33 46
+  sol: answer: 33
+  sol: ask (1, 163): 34 33 13
+  sol: answer: 33
+  sol: ask (1, 164): 34 33 17
+  sol: answer: 33
+  sol: ask (1, 165): 34 33 2
+  sol: answer: 33
+  sol: ask (1, 166): 34 33 39
+  sol: answer: 33
+  sol: ask (1, 167): 34 33 25
+  sol: answer: 33
+  sol: ask (1, 168): 34 33 30
+  sol: answer: 33
+  sol: ask (1, 169): 34 33 14
+  sol: answer: 33
+  sol: ask (1, 170): 34 33 9
+  sol: answer: 9
+  sol: ask (1, 171): 34 33 18
+  sol: answer: 33
+  sol: ask (1, 172): 34 33 27
+  sol: answer: 33
+  sol: ask (1, 173): 34 33 24
+  sol: answer: 33
+  sol: ask (1, 174): 34 33 43
+  sol: answer: 33
+  sol: ask (1, 175): 34 33 20
+  sol: answer: 33
+  sol: ask (1, 176): 34 33 36
+  sol: answer: 33
+  sol: ask (1, 177): 34 33 32
+  sol: answer: 33
+  sol: ask (1, 178): 34 33 29
+  sol: answer: 33
+  sol: ask (1, 179): 34 33 10
+  sol: answer: 33
+  sol: ask (1, 180): 34 33 11
+  sol: answer: 33
+  sol: ask (1, 181): 34 33 40
+  sol: answer: 40
+  sol: ask (1, 182): 34 3 37
+  sol: answer: 3
+  sol: ask (1, 183): 34 37 9
+  sol: answer: 9
+  sol: ask (1, 184): 34 37 40
+  sol: answer: 40
+  sol: ask (1, 185): 34 3 9
+  sol: answer: 9
+  sol: ask (1, 186): 34 3 40
+  sol: answer: 40
+  sol: ask (1, 187): 34 9 40
+  sol: answer: 9
+  sol: ask (1, 188): 33 1 8
+  sol: answer: 1
+  sol: ask (1, 189): 33 1 49
+  sol: answer: 1
+  sol: ask (1, 190): 33 1 42
+  sol: answer: 1
+  sol: ask (1, 191): 33 1 21
+  sol: answer: 1
+  sol: ask (1, 192): 33 1 19
+  sol: answer: 19
+  sol: ask (1, 193): 33 1 47
+  sol: answer: 1
+  sol: ask (1, 194): 33 1 41
+  sol: answer: 1
+  sol: ask (1, 195): 33 1 23
+  sol: answer: 1
+  sol: ask (1, 196): 33 1 7
+  sol: answer: 1
+  sol: ask (1, 197): 33 1 26
+  sol: answer: 1
+  sol: ask (1, 198): 33 1 50
+  sol: answer: 1
+  sol: ask (1, 199): 33 1 46
+  sol: answer: 1
+  sol: ask (1, 200): 33 1 13
+  sol: answer: 1
+  sol: ask (1, 201): 33 1 17
+  sol: answer: 1
+  sol: ask (1, 202): 33 1 2
+  sol: answer: 1
+  sol: ask (1, 203): 33 1 39
+  sol: answer: 1
+  sol: ask (1, 204): 33 1 25
+  sol: answer: 1
+  sol: ask (1, 205): 33 1 30
+  sol: answer: 1
+  sol: ask (1, 206): 33 1 14
+  sol: answer: 1
+  sol: ask (1, 207): 33 1 18
+  sol: answer: 18
+  sol: ask (1, 208): 33 1 27
+  sol: answer: 1
+  sol: ask (1, 209): 33 1 24
+  sol: answer: 1
+  sol: ask (1, 210): 33 1 43
+  sol: answer: 1
+  sol: ask (1, 211): 33 1 20
+  sol: answer: 20
+  sol: ask (1, 212): 33 1 36
+  sol: answer: 36
+  sol: ask (1, 213): 33 1 32
+  sol: answer: 1
+  sol: ask (1, 214): 33 1 29
+  sol: answer: 1
+  sol: ask (1, 215): 33 1 10
+  sol: answer: 1
+  sol: ask (1, 216): 33 1 11
+  sol: answer: 1
+  sol: ask (1, 217): 33 19 18
+  sol: answer: 19
+  sol: ask (1, 218): 33 18 20
+  sol: answer: 18
+  sol: ask (1, 219): 33 20 36
+  sol: answer: 36
+  sol: ask (1, 220): 33 19 18
+  sol: answer: 19
+  sol: ask (1, 221): 33 18 36
+  sol: answer: 36
+  sol: ask (1, 222): 33 19 36
+  sol: answer: 19
+  sol: ask (1, 223): 1 8 49
+  sol: answer: 8
+  sol: ask (1, 224): 1 8 42
+  sol: answer: 8
+  sol: ask (1, 225): 1 8 21
+  sol: answer: 8
+  sol: ask (1, 226): 1 8 47
+  sol: answer: 8
+  sol: ask (1, 227): 1 8 41
+  sol: answer: 8
+  sol: ask (1, 228): 1 8 23
+  sol: answer: 8
+  sol: ask (1, 229): 1 8 7
+  sol: answer: 8
+  sol: ask (1, 230): 1 8 26
+  sol: answer: 8
+  sol: ask (1, 231): 1 8 50
+  sol: answer: 8
+  sol: ask (1, 232): 1 8 46
+  sol: answer: 8
+  sol: ask (1, 233): 1 8 13
+  sol: answer: 13
+  sol: ask (1, 234): 1 8 17
+  sol: answer: 8
+  sol: ask (1, 235): 1 8 2
+  sol: answer: 8
+  sol: ask (1, 236): 1 8 39
+  sol: answer: 8
+  sol: ask (1, 237): 1 8 25
+  sol: answer: 8
+  sol: ask (1, 238): 1 8 30
+  sol: answer: 8
+  sol: ask (1, 239): 1 8 14
+  sol: answer: 8
+  sol: ask (1, 240): 1 8 27
+  sol: answer: 8
+  sol: ask (1, 241): 1 8 24
+  sol: answer: 8
+  sol: ask (1, 242): 1 8 43
+  sol: answer: 8
+  sol: ask (1, 243): 1 8 32
+  sol: answer: 8
+  sol: ask (1, 244): 1 8 29
+  sol: answer: 8
+  sol: ask (1, 245): 1 8 10
+  sol: answer: 8
+  sol: ask (1, 246): 1 8 11
+  sol: answer: 8
+  sol: ask (1, 247): 8 49 42
+  sol: answer: 49
+  sol: ask (1, 248): 8 49 21
+  sol: answer: 21
+  sol: ask (1, 249): 8 49 47
+  sol: answer: 47
+  sol: ask (1, 250): 8 49 41
+  sol: answer: 41
+  sol: ask (1, 251): 8 49 23
+  sol: answer: 49
+  sol: ask (1, 252): 8 49 7
+  sol: answer: 7
+  sol: ask (1, 253): 8 49 26
+  sol: answer: 49
+  sol: ask (1, 254): 8 49 50
+  sol: answer: 50
+  sol: ask (1, 255): 8 49 46
+  sol: answer: 46
+  sol: ask (1, 256): 8 49 17
+  sol: answer: 17
+  sol: ask (1, 257): 8 49 2
+  sol: answer: 2
+  sol: ask (1, 258): 8 49 39
+  sol: answer: 39
+  sol: ask (1, 259): 8 49 25
+  sol: answer: 25
+  sol: ask (1, 260): 8 49 30
+  sol: answer: 30
+  sol: ask (1, 261): 8 49 14
+  sol: answer: 14
+  sol: ask (1, 262): 8 49 27
+  sol: answer: 27
+  sol: ask (1, 263): 8 49 24
+  sol: answer: 24
+  sol: ask (1, 264): 8 49 43
+  sol: answer: 43
+  sol: ask (1, 265): 8 49 32
+  sol: answer: 32
+  sol: ask (1, 266): 8 49 29
+  sol: answer: 29
+  sol: ask (1, 267): 8 49 10
+  sol: answer: 49
+  sol: ask (1, 268): 8 49 11
+  sol: answer: 11
+  sol: ask (1, 269): 8 21 47
+  sol: answer: 21
+  sol: ask (1, 270): 8 21 41
+  sol: answer: 21
+  sol: ask (1, 271): 8 21 7
+  sol: answer: 21
+  sol: ask (1, 272): 8 21 50
+  sol: answer: 21
+  sol: ask (1, 273): 8 21 46
+  sol: answer: 21
+  sol: ask (1, 274): 8 21 17
+  sol: answer: 21
+  sol: ask (1, 275): 8 21 2
+  sol: answer: 21
+  sol: ask (1, 276): 8 21 39
+  sol: answer: 21
+  sol: ask (1, 277): 8 21 25
+  sol: answer: 21
+  sol: ask (1, 278): 8 21 30
+  sol: answer: 21
+  sol: ask (1, 279): 8 21 14
+  sol: answer: 21
+  sol: ask (1, 280): 8 21 27
+  sol: answer: 21
+  sol: ask (1, 281): 8 21 24
+  sol: answer: 21
+  sol: ask (1, 282): 8 21 43
+  sol: answer: 21
+  sol: ask (1, 283): 8 21 32
+  sol: answer: 21
+  sol: ask (1, 284): 8 21 29
+  sol: answer: 21
+  sol: ask (1, 285): 8 21 11
+  sol: answer: 21
+  sol: ask (1, 286): 21 47 41
+  sol: answer: 47
+  sol: ask (1, 287): 21 47 7
+  sol: answer: 47
+  sol: ask (1, 288): 21 47 50
+  sol: answer: 47
+  sol: ask (1, 289): 21 47 46
+  sol: answer: 47
+  sol: ask (1, 290): 21 47 17
+  sol: answer: 47
+  sol: ask (1, 291): 21 47 2
+  sol: answer: 47
+  sol: ask (1, 292): 21 47 39
+  sol: answer: 47
+  sol: ask (1, 293): 21 47 25
+  sol: answer: 47
+  sol: ask (1, 294): 21 47 30
+  sol: answer: 47
+  sol: ask (1, 295): 21 47 14
+  sol: answer: 47
+  sol: ask (1, 296): 21 47 27
+  sol: answer: 47
+  sol: ask (1, 297): 21 47 24
+  sol: answer: 47
+  sol: ask (1, 298): 21 47 43
+  sol: answer: 47
+  sol: ask (1, 299): 21 47 32
+  sol: answer: 47
+  sol: ask (1, 300): 21 47 29
+  sol: answer: 47
+  sol: ask (1, 301): 21 47 11
+  sol: answer: 47
+  sol: ask (1, 302): 47 41 7
+  sol: answer: 41
+  sol: ask (1, 303): 47 41 50
+  sol: answer: 50
+  sol: ask (1, 304): 47 41 46
+  sol: answer: 46
+  sol: ask (1, 305): 47 41 17
+  sol: answer: 41
+  sol: ask (1, 306): 47 41 2
+  sol: answer: 41
+  sol: ask (1, 307): 47 41 39
+  sol: answer: 41
+  sol: ask (1, 308): 47 41 25
+  sol: answer: 41
+  sol: ask (1, 309): 47 41 30
+  sol: answer: 41
+  sol: ask (1, 310): 47 41 14
+  sol: answer: 41
+  sol: ask (1, 311): 47 41 27
+  sol: answer: 41
+  sol: ask (1, 312): 47 41 24
+  sol: answer: 41
+  sol: ask (1, 313): 47 41 43
+  sol: answer: 41
+  sol: ask (1, 314): 47 41 32
+  sol: answer: 32
+  sol: ask (1, 315): 47 41 29
+  sol: answer: 41
+  sol: ask (1, 316): 47 41 11
+  sol: answer: 11
+  sol: ask (1, 317): 47 50 46
+  sol: answer: 46
+  sol: ask (1, 318): 47 50 32
+  sol: answer: 32
+  sol: ask (1, 319): 47 50 11
+  sol: answer: 50
+  sol: ask (1, 320): 47 46 32
+  sol: answer: 46
+  sol: ask (1, 321): 47 32 50
+  sol: answer: 32
+  sol: ask (1, 322): 47 46 32
+  sol: answer: 46
+  sol: ask (1, 323): 41 7 17
+  sol: answer: 17
+  sol: ask (1, 324): 41 7 2
+  sol: answer: 2
+  sol: ask (1, 325): 41 7 39
+  sol: answer: 7
+  sol: ask (1, 326): 41 7 25
+  sol: answer: 25
+  sol: ask (1, 327): 41 7 30
+  sol: answer: 30
+  sol: ask (1, 328): 41 7 14
+  sol: answer: 7
+  sol: ask (1, 329): 41 7 27
+  sol: answer: 27
+  sol: ask (1, 330): 41 7 24
+  sol: answer: 24
+  sol: ask (1, 331): 41 7 43
+  sol: answer: 43
+  sol: ask (1, 332): 41 7 29
+  sol: answer: 29
+  sol: ask (1, 333): 41 17 2
+  sol: answer: 2
+  sol: ask (1, 334): 41 17 25
+  sol: answer: 25
+  sol: ask (1, 335): 41 17 30
+  sol: answer: 30
+  sol: ask (1, 336): 41 17 27
+  sol: answer: 17
+  sol: ask (1, 337): 41 17 24
+  sol: answer: 24
+  sol: ask (1, 338): 41 17 43
+  sol: answer: 43
+  sol: ask (1, 339): 41 17 29
+  sol: answer: 29
+  sol: ask (1, 340): 41 2 25
+  sol: answer: 2
+  sol: ask (1, 341): 41 2 30
+  sol: answer: 2
+  sol: ask (1, 342): 41 2 24
+  sol: answer: 2
+  sol: ask (1, 343): 41 2 43
+  sol: answer: 2
+  sol: ask (1, 344): 41 2 29
+  sol: answer: 2
+  sol: ask (1, 345): 2 25 30
+  sol: answer: 25
+  sol: ask (1, 346): 2 25 24
+  sol: answer: 25
+  sol: ask (1, 347): 2 25 43
+  sol: answer: 25
+  sol: ask (1, 348): 2 25 29
+  sol: answer: 25
+  sol: ask (1, 349): 25 30 24
+  sol: answer: 24
+  sol: ask (1, 350): 25 30 43
+  sol: answer: 30
+  sol: ask (1, 351): 25 43 29
+  sol: answer: 43
+  sol: ask (1, 352): 25 24 30
+  sol: answer: 24
+  sol: ask (1, 353): 25 30 43
+  sol: answer: 30
+  sol: ask (1, 354): 25 24 30
+  sol: answer: 24
+  sol: ask (1, 355): 7 39 14
+  sol: answer: 39
+  sol: ask (1, 356): 49 42 23
+  sol: answer: 42
+  sol: ask (1, 357): 49 23 26
+  sol: answer: 23
+  sol: ask (1, 358): 49 26 10
+  sol: answer: 10
+  sol: ask (1, 359): 49 42 23
+  sol: answer: 42
+  sol: ask (1, 360): 49 23 10
+  sol: answer: 23
+  sol: ask (1, 361): 49 42 23
+  sol: answer: 42
+  sol: ask (1, 362): 31 35 38
+  sol: answer: 38
+  sol: guess: 16 48 22 4 12 44 15 5 6 34 9 40 3 37 33 19 36 18 20 1 13 8 21 47 46 32 50 11 41 2 25 24 30 43 29 17 27 7 39 14 49 42 23 10 26 31 38 35 28 45 
+  sol: answer: 1
+  sol: test case: 2
+  sol: ask (2, 363): 7 6 23
+  sol: answer: 7
+  sol: ask (2, 364): 7 6 17
+  sol: answer: 7
+  sol: ask (2, 365): 7 6 19
+  sol: answer: 7
+  sol: ask (2, 366): 7 6 30
+  sol: answer: 6
+  sol: ask (2, 367): 7 6 43
+  sol: answer: 6
+  sol: ask (2, 368): 7 6 9
+  sol: answer: 9
+  sol: ask (2, 369): 7 6 15
+  sol: answer: 7
+  sol: ask (2, 370): 7 6 11
+  sol: answer: 11
+  sol: ask (2, 371): 7 6 37
+  sol: answer: 7
+  sol: ask (2, 372): 7 6 3
+  sol: answer: 7
+  sol: ask (2, 373): 7 6 38
+  sol: answer: 6
+  sol: ask (2, 374): 7 6 46
+  sol: answer: 7
+  sol: ask (2, 375): 7 6 14
+  sol: answer: 6
+  sol: ask (2, 376): 7 6 24
+  sol: answer: 7
+  sol: ask (2, 377): 7 6 34
+  sol: answer: 7
+  sol: ask (2, 378): 7 6 32
+  sol: answer: 7
+  sol: ask (2, 379): 7 6 20
+  sol: answer: 6
+  sol: ask (2, 380): 7 6 16
+  sol: answer: 7
+  sol: ask (2, 381): 7 6 5
+  sol: answer: 7
+  sol: ask (2, 382): 7 6 10
+  sol: answer: 6
+  sol: ask (2, 383): 7 6 8
+  sol: answer: 7
+  sol: ask (2, 384): 7 6 21
+  sol: answer: 7
+  sol: ask (2, 385): 7 6 50
+  sol: answer: 7
+  sol: ask (2, 386): 7 6 26
+  sol: answer: 6
+  sol: ask (2, 387): 7 6 44
+  sol: answer: 6
+  sol: ask (2, 388): 7 6 25
+  sol: answer: 7
+  sol: ask (2, 389): 7 6 13
+  sol: answer: 7
+  sol: ask (2, 390): 7 6 12
+  sol: answer: 7
+  sol: ask (2, 391): 7 6 36
+  sol: answer: 7
+  sol: ask (2, 392): 7 6 29
+  sol: answer: 29
+  sol: ask (2, 393): 7 6 35
+  sol: answer: 7
+  sol: ask (2, 394): 7 6 48
+  sol: answer: 6
+  sol: ask (2, 395): 7 6 1
+  sol: answer: 7
+  sol: ask (2, 396): 7 6 45
+  sol: answer: 6
+  sol: ask (2, 397): 7 6 18
+  sol: answer: 7
+  sol: ask (2, 398): 7 6 39
+  sol: answer: 7
+  sol: ask (2, 399): 7 6 33
+  sol: answer: 6
+  sol: ask (2, 400): 7 6 31
+  sol: answer: 6
+  sol: ask (2, 401): 7 6 27
+  sol: answer: 6
+  sol: ask (2, 402): 7 6 28
+  sol: answer: 28
+  sol: ask (2, 403): 7 6 4
+  sol: answer: 7
+  sol: ask (2, 404): 7 6 47
+  sol: answer: 6
+  sol: ask (2, 405): 7 6 49
+  sol: answer: 49
+  sol: ask (2, 406): 7 6 42
+  sol: answer: 6
+  sol: ask (2, 407): 7 6 40
+  sol: answer: 7
+  sol: ask (2, 408): 7 6 22
+  sol: answer: 22
+  sol: ask (2, 409): 7 6 2
+  sol: answer: 6
+  sol: ask (2, 410): 7 6 41
+  sol: answer: 7
+  sol: ask (2, 411): 7 23 17
+  sol: answer: 23
+  sol: ask (2, 412): 17 23 19
+  sol: answer: 23
+  sol: ask (2, 413): 17 23 15
+  sol: answer: 15
+  sol: ask (2, 414): 17 23 37
+  sol: answer: 23
+  sol: ask (2, 415): 17 23 3
+  sol: answer: 17
+  sol: ask (2, 416): 17 23 46
+  sol: answer: 23
+  sol: ask (2, 417): 17 23 24
+  sol: answer: 23
+  sol: ask (2, 418): 17 23 34
+  sol: answer: 23
+  sol: ask (2, 419): 17 23 32
+  sol: answer: 17
+  sol: ask (2, 420): 17 23 16
+  sol: answer: 23
+  sol: ask (2, 421): 17 23 5
+  sol: answer: 17
+  sol: ask (2, 422): 17 23 8
+  sol: answer: 23
+  sol: ask (2, 423): 17 23 21
+  sol: answer: 17
+  sol: ask (2, 424): 17 23 50
+  sol: answer: 23
+  sol: ask (2, 425): 17 23 25
+  sol: answer: 23
+  sol: ask (2, 426): 17 23 13
+  sol: answer: 13
+  sol: ask (2, 427): 17 23 12
+  sol: answer: 23
+  sol: ask (2, 428): 17 23 36
+  sol: answer: 23
+  sol: ask (2, 429): 17 23 35
+  sol: answer: 35
+  sol: ask (2, 430): 17 23 1
+  sol: answer: 23
+  sol: ask (2, 431): 17 23 18
+  sol: answer: 23
+  sol: ask (2, 432): 17 23 39
+  sol: answer: 17
+  sol: ask (2, 433): 17 23 4
+  sol: answer: 23
+  sol: ask (2, 434): 17 23 40
+  sol: answer: 17
+  sol: ask (2, 435): 17 23 41
+  sol: answer: 23
+  sol: ask (2, 436): 17 3 32
+  sol: answer: 3
+  sol: ask (2, 437): 32 3 5
+  sol: answer: 3
+  sol: ask (2, 438): 32 3 21
+  sol: answer: 32
+  sol: ask (2, 439): 32 3 39
+  sol: answer: 32
+  sol: ask (2, 440): 32 3 40
+  sol: answer: 40
+  sol: ask (2, 441): 32 21 39
+  sol: answer: 21
+  sol: ask (2, 442): 32 21 32
+  sol: answer: -1
+  sol: test case: 3
+judge: Case #2 failed: Received repeated integers: (32, 21, 32)
+  sol: ask (3, 443): 29 16 26
+Traceback (most recent call last):
+  File "interactive_runner.py", line 98, in <module>
+    t_sol.join()
+  File "/Users/zoltanszekeres/.pyenv/versions/3.7.3/lib/python3.7/threading.py", line 1032, in join
+    self._wait_for_tstate_lock()
+  File "/Users/zoltanszekeres/.pyenv/versions/3.7.3/lib/python3.7/threading.py", line 1048, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
