@@ -39,7 +39,7 @@ istream& operator>>(istream& is, input& in) {
 }
 
 template<typename T0, typename T1>
-ostream& operator<<(ostream& os, pair<T0, T1>& x) {
+ostream& operator<<(ostream& os, pair<T0, T1> const& x) {
   os << x.first << x.second;
   return os;
 }
