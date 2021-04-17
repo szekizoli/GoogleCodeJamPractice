@@ -19,9 +19,11 @@ using namespace std;
 
 // I/O
 
+using val_t = long long;
+using prime_count = pair<val_t, val_t>;
 struct input {
 	int m;
-	vector<pair<int, int>> v;
+	vector<prime_count> v;
 };
 
 template<typename T0, typename T1>
@@ -44,7 +46,7 @@ istream& operator>>(istream& is, input& in) {
 
 template<typename T0, typename T1>
 ostream& operator<<(ostream& os, const pair<T0, T1>& x) {
-  os << x.first << x.second;
+  os << x.first << " " << x.second;
   return os;
 }
 
@@ -56,66 +58,39 @@ ostream& operator<<(ostream& os, vector<T> const& x) {
 
 // Algorithm
 
-using val_t = unsigned long long;
-const val_t MAX = 49900;
-const int MAX_ITEM = 15;
+const val_t MAX_PRIME = 499;
+const val_t MAX = MAX_PRIME * 1000000000000000;
+const int MAX_ITEM = 60;
+const val_t MAX_SUM_2 = MAX_ITEM * MAX_PRIME;
 
-val_t eval(vector<int> const& ps, int bitmask) {
-	val_t sum = 0;
-	val_t prd = 1;
-	int prd_cnt = 0;
-	for (int i = 0; i < ps.size(); ++i) {
-		if (bitmask & 1) { sum = sum + ps[i]; }
-		else             { prd = prd * ps[i]; ++prd_cnt; }
-		bitmask >>= 1;
-
-		if (prd_cnt > MAX_ITEM) return 0;
-		if (sum > MAX || prd > MAX) return 0;
-	}
-	return sum == prd ? sum : 0;
+pair<val_t, bool> prime_factor(val_t num, input const& in) {
+  val_t sum = 0;
+  for (const prime_count pf : in.v) {
+    val_t count = pf.second;
+    while (num > 1 && count > 0 && num % pf.first == 0) {
+      sum += pf.first;
+      num = num / pf.first;
+      --count;
+    }
+    if (num == 1) break;
+  }
+  return {sum, num == 1};
 }
 
-val_t eval2(vector<int> const& ps) {
-	vector<pair<val_t, val_t>> ss {{0, 1}};
-	for (int p : ps) {
-		size_t size = ss.size();
-		for (size_t i = 0; i < size; ++i) {
-			auto pr = ss[i];
-			if (pr.first + p < MAX) {
-				ss[i].first = pr.first + p;
-				if (pr.second * p < MAX) {
-					ss.push_back({pr.first, pr.second*p});
-				}
-			} else if (pr.second * p < MAX) {
-				ss[i].second = pr.second * p;
-			}
-		}
-	}
-
-	val_t mx = 0;
-	for (const auto pr: ss) {
-		if (pr.first != pr.second) continue;
-		mx = std::max(mx, pr.first);
-	}
-	return mx;
+val_t pair_product(val_t const& a, prime_count const& b) {
+  return a + b.first * b.second;
 }
 
 void solve(input const& in) {
-	vector<int> ps;
-	for (const auto p : in.v) {
-		ps.insert(end(ps), p.second, p.first);
-	}
-	if (ps.size() > 100) { cout << 0; return; }
-	// Seperate numbers in two groups in all possible ways
-	cout << eval2(ps);
-  /*
- 	val_t limit = (1 << ps.size()) - 1;
-	val_t mx = 0;
-	for (val_t i = 1; i < limit; ++i) {
-		val_t v = eval(ps, i);
-		mx = std::max(mx, v);
-	}
-	cout << mx;*/
+  val_t sum = std::accumulate(begin(in.v), end(in.v), val_t{0}, pair_product);
+  val_t min_v = std::max(val_t{1}, sum - MAX_SUM_2 - 1);
+  for (val_t i = sum; i > min_v; --i) {
+      pair<val_t, bool> pf_result = prime_factor(i, in);
+      if (pf_result.second && sum == i + pf_result.first)  {
+        cout << i; return;
+      }
+  }
+  cout << "0"; return;
 }
 
 int main() {
