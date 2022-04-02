@@ -1,4 +1,6 @@
 #include<algorithm>
+#include<array>
+#include<bitset>
 #include<cmath>
 #include<cstdint>
 #include<cctype>
@@ -9,6 +11,7 @@
 #include<map>
 #include<memory>
 #include<numeric>
+#include<queue>
 #include<set>
 #include<sstream>
 #include<string>
@@ -30,6 +33,12 @@ istream& operator>>(istream& is, pair<T0, T1>& x) {
 
 template<typename T>
 istream& operator>>(istream& is, vector<T>& x) {
+  for(size_t i = 0; i < x.size(); ++i) is >> x[i];
+  return is;
+}
+
+template<typename T, size_t N>
+istream& operator>>(istream& is, array<T, N>& x) {
   for(size_t i = 0; i < x.size(); ++i) is >> x[i];
   return is;
 }
